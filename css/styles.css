@@ -18,4 +18,70 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: blue;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+.main {
+  width: 247px;
+  height: 505px;
+  background-color: #f5f3f7;
+  border: 10px solid white;
+  border-radius: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 228px;
+  height: 66px;
+  background-image: linear-gradient(#e844ff, #873aff);
+  border-radius: 20px 20px 8px 8px;
+}
+.profile-arrow {
+  width: 4px;
+  height: 10px;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.menu {
+  margin-left: auto;
+}
+.user-name {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  margin: 0;
+}
+.state {
+  font-size: 0.5rem;
+  font-weight: 400;
+  margin: 0;
+  color: #d99eff;
+}
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 196px;
+  height: 24px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.msg-1 {
+  width: 128px;
+  height: 34px;
+}
+.text-1 {
+  width: 112px;
+  height: 22px;
+  font-size: 8px;
+  font-weight: 400;
+  color: #9341c8;
+  background-color: #eee5f4;
 }
